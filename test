@@ -1,0 +1,10 @@
+-- https://learn.microsoft.com/en-us/sql/tools/visual-studio-code/sql-server-develop-use-vscode?view=sql-server-ver16
+
+SELECT TOP (1000) [ID]
+      ,[PortfolioID]
+      ,[PortfolioName]
+      ,[MorningstarPortfolioID]
+      ,[Attribute]
+      ,[Ticker]
+      ,[Value]
+  FROM [InvestmentDB].[dbo].[MorningstarYchartsData]
