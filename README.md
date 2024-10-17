@@ -1,2 +1,2 @@
 # Meeder1
- place for general project
+ place for general projects
