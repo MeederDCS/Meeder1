@@ -6,4 +6,4 @@ SELECT TOP (10000) [ID]
       ,[ProviderId]
       ,[ValidationLevel]
   FROM [MarketData].[dbo].[MeederDataPointPITs]
-WHERE [DataPointId] IN (4111,4305);
+WHERE [DataPointId] IN (1537);
