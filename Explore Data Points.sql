@@ -10,6 +10,4 @@ SELECT TOP (10000) [ID],
        [Notes],
        [Currency]
 FROM [MarketData].[dbo].[MeederDataPoints]
--- WHERE [DataPointDescription] LIKE '500';
-
-
+WHERE [DataPointDescription] LIKE '%Treasury%';
